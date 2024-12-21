@@ -164,6 +164,7 @@
           transform: unset;
           padding-top: 36px;
           font-size: 65px;
+          position: unset !important;
         }
         .navbar-collapse {
           height: auto;
@@ -175,6 +176,24 @@
             a.nav-link {
               font-size: 12px;
             }
+          }
+        }
+      }
+    }
+  }
+}
+@media all and (min-width: 1200px) {
+  .App {
+    .App-header {
+      section.mobile-center {
+        .sector {
+          .container {
+            width: 30%;
+            max-width: 20%;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
           }
         }
       }
