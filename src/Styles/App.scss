@@ -186,6 +186,15 @@
   .App {
     .App-header {
       section.mobile-center {
+        h1.section-title {
+          font-size: 45px;
+          line-height: 55px;
+          text-transform: uppercase;
+        }
+        p {
+          font-size: 18px;
+          line-height: 30px;
+        }
         .sector {
           .container {
             width: 30%;
